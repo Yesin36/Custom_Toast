@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.myapplication"
-        minSdk = 21
+        minSdk = 23
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -45,4 +45,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation ("io.github.shashank02051997:FancyToast:2.0.2")
+    implementation ("com.github.emreesen27:Android-Custom-Toast-Message:1.0.5")
 }
